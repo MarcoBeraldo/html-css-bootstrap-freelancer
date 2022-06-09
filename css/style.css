@@ -1,0 +1,22 @@
+/* borders for layout */
+
+.debug .container {
+    border: 3px solid black
+}
+
+.debug .row {
+    border: 2px solid red;
+}
+
+.debug [class^=col] {
+    border: 1px solid blue;
+}
+
+/* generics */
+
+header {
+    height: 80px;
+    background-color: #2C3E50;
+}
+
+.row {}
