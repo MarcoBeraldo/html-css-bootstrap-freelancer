@@ -12,6 +12,32 @@
     border: 1px solid blue;
 }
 
+/* utils */
+
+.background-img-red {
+    background-color: #BA4B63;
+}
+
+.background-img-blue1 {
+    background-color: #1EA4B6;
+}
+
+.background-img-blue2 {
+    background-color: #1C83C1;
+}
+
+.background-img-blue3 {
+    background-color: #0E38B5;
+}
+
+.background-img-ocra {
+    background-color: #CCB2A3;
+}
+
+.background-img-black {
+    background-color: #000;
+}
+
 /* generics */
 
 header {
@@ -19,4 +45,15 @@ header {
     background-color: #2C3E50;
 }
 
-.row {}
+#about,
+#jumbotron {
+    background-color: #1ABC9C;
+}
+
+#address {
+    background-color: #3A546D;
+}
+
+footer {
+    background-color: #2C3E50;
+}
