@@ -1,42 +1,13 @@
 /* borders for layout */
 
-.debug .container {
-    border: 3px solid black
-}
 
-.debug .row {
-    border: 2px solid red;
-}
-
-.debug [class^=col] {
-    border: 1px solid blue;
-}
 
 /* utils */
 
-.background-img-red {
-    background-color: #BA4B63;
+.#jumbotron {
+    background-color: #1ABC9C;
 }
 
-.background-img-blue1 {
-    background-color: #1EA4B6;
-}
-
-.background-img-blue2 {
-    background-color: #1C83C1;
-}
-
-.background-img-blue3 {
-    background-color: #0E38B5;
-}
-
-.background-img-ocra {
-    background-color: #CCB2A3;
-}
-
-.background-img-black {
-    background-color: #000;
-}
 
 /* generics */
 
@@ -50,10 +21,51 @@ header {
     background-color: #1ABC9C;
 }
 
+img {
+    max-width: 100%
+}
+
 #address {
     background-color: #3A546D;
 }
 
 footer {
     background-color: #2C3E50;
+}
+
+.line {
+    background-color: #fff;
+    height: 3px;
+    min-width: 100px;
+    margin: 20px
+}
+
+.line-black {
+    background-color: #000;
+    height: 3px;
+    min-width: 100px;
+    margin: 20px
+}
+
+h2 {
+    font-size: 36px;
+}
+
+textarea {
+    height: 250px
+}
+
+.btn-bg-green {
+    background-color: #1ABC9C;
+    opacity: 0.8;
+}
+
+.btn.btn-bg-green:hover {
+    background-color: #1ABC9C;
+    opacity: 1;
+}
+
+.social-media-icon {
+    height: 50px;
+    width: 50px;
 }
