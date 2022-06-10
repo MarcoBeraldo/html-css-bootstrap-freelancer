@@ -65,7 +65,9 @@ textarea {
     opacity: 1;
 }
 
-.social-media-icon {
-    height: 50px;
-    width: 50px;
+.social-media-icon {}
+
+.start-bootstrap-link {
+    text-decoration: none;
+    color: #1ABC9C;
 }
